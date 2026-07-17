@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+
+:root{
+    --transition: .25s ease;
+    --primary:#ffffff;
+    --bg-dark:#1B2431;
+    --header:#273142;
+    --search:#323D4E;
+    --blue:#4880FF;
+    --text:#ffffff;
+    --text-muted:rgba(255,255,255,.8);
+    --sidebar-width:240px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Nunito Sans",sans-serif;
+    background:var(--bg-dark);
+    min-height:100vh;
+}
+
+.wrapper{
+    display:flex;
+    min-height:100vh;
+}
+
+.navContainer{
+    width:var(--sidebar-width);
+    background:var(--header);
+    display:flex;
+    flex-direction:column;
+    padding:25px 20px;
+    flex-shrink:0;
+}
+
+.logoContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:35px;
+}
+
+.logo{
+    width:130px;
+    object-fit:contain;
+    transition:.3s;
+}
+
+.logo:hover{
+    transform:scale(1.05);
+}
+
+.menu{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    flex:1;
+}
+
+.menu li{
+    width:100%;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    height:45px;
+    padding-left:28px;
+    border-radius:8px;
+    color:var(--text-muted);
+    text-decoration:none;
+    transition:.25s;
+}
+
+.menu a:hover{
+    background:var(--blue);
+    color:#fff;
+}
+
+.menu li:first-child a{
+    background:var(--blue);
+    color:#fff;
+}
+
+.menu-section{
+    margin-top:20px;
+    padding-top:20px;
+    padding-left:28px;
+    border-top:1px solid rgba(255,255,255,.1);
+    color:var(--text-muted);
+    font-size:14px;
+    font-weight:700;
+}
+
+.mainContent{
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.headerContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 35px;
+    background:var(--header);
+    gap:20px;
+}
+
+.searchContainer{
+    display:flex;
+    align-items:center;
+    width:100%;
+    max-width:390px;
+    height:42px;
+    padding:0 15px;
+    background:var(--search);
+    border-radius:21px;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.searchContainer button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    background:none;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.searchIcon{
+    width:20px;
+    height:20px;
+}
+
+.searchContainer input{
+    flex:1;
+    border:none;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:15px;
+}
+
+.searchContainer input::placeholder{
+    color:rgba(255,255,255,.7);
+}
+
+.profileContainer{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    flex-shrink:0;
+}
+
+.profileIcon{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+}
+
+.profileInfo{
+    display:flex;
+    flex-direction:column;
+}
+
+.profileName{
+    color:white;
+    font-size:16px;
+    font-weight:700;
+}
+
+.profileStatus{
+    color:rgba(255,255,255,.75);
+    font-size:13px;
+}
+
+
+.content{
+    flex:1;
+    padding:30px;
+}
+
+button{
+    border:none;
+    outline:none;
+    background:none;
+}
+
+input{
+    font-family:inherit;
+}
+
