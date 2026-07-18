@@ -24,7 +24,7 @@ body{
     min-height:100vh;
 }
 
-.wrapper{
+.wrapperSidebarHeader{
     display:flex;
     min-height:100vh;
 }
@@ -98,7 +98,7 @@ body{
     font-weight:700;
 }
 
-.mainContent{
+.header{
     flex:1;
 
     display:flex;
