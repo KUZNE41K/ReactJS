@@ -1,0 +1,9 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    flex-wrap: nowrap; /* не переносить на новую строку */
+    align-items: flex-start;
+    justify-content: space-between
+}

@@ -1,0 +1,41 @@
+.statisticCardContainer {
+    width: 262px;
+    height: 161px;
+    padding: 16px;
+    border-radius: 14px;
+    background-color: #273142;
+    border: 1px solid #313D4F;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.statisticImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.description,
+.statistics,
+.middle h1 {
+    margin: 0;
+}
+.description {
+    color: #ffffff;
+    opacity: 0.7;
+}
+.middle h1{
+    color: #ffffff;
+}
+.statistics{
+    color: #00B69B;
+}

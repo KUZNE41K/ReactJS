@@ -1,7 +1,7 @@
 import ProfileIcon from "./ProfileIcon.jsx";
 import ProfileInfoHeader from "./ProfileInfoHeader.jsx";
 
-const profileContainer =(props)=>{
+const ProfileContainer =(props)=>{
     const{
         className ="",
     }=props
@@ -12,4 +12,4 @@ const profileContainer =(props)=>{
         </div>
     )
 }
-export default profileContainer;
+export default ProfileContainer;

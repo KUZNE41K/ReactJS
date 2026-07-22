@@ -1,4 +1,4 @@
-const profileIcon = (props) => {
+const ProfileContentText = (props) => {
     const{
         className ="",
         text=""
@@ -7,4 +7,4 @@ const profileIcon = (props) => {
         <span className={className}>{text}</span>
     )
 }
-export default profileIcon;
+export default ProfileContentText;
