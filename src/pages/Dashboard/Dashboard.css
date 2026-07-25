@@ -1,9 +1,11 @@
 .dashboard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 24px;
+}
+.statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-
-    flex-wrap: nowrap; /* не переносить на новую строку */
-    align-items: flex-start;
-    justify-content: space-between
+    white-space: nowrap;
 }

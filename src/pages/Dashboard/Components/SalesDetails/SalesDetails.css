@@ -1,0 +1,20 @@
+.salesChart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.salesChart{
+    width: 100%;
+    flex: 1;
+    background: #273142;
+    border: 1px groove #313D4F;
+    border-radius: 14px;
+    padding: 32px;
+
+}
+.salesChart__header h2
+{
+    color: #ffffff;
+}

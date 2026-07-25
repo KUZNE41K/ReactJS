@@ -1,6 +1,13 @@
 import "./StatisticCard.css";
 
-const StatisticCard = ({ src = "", description = "", quantity, statistics }) => {
+const StatisticCard = (props) => {
+
+    const{
+        src = "",
+        description = "",
+        quantity,
+        statistics
+        }=props
     return (
         <div className="statisticCardContainer">
             <p className="description">{description}</p>
