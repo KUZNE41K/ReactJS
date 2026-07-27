@@ -1,6 +1,7 @@
 import StatisticCard from "./Components/StatisticCard/StatisticCard.jsx";
 import  "./Dashboard.css"
 import SalesDetails from "./Components/SalesDetails/SalesDetails.jsx";
+import DealsDetails from "./Components/DealsDetails/DealsDetails.jsx";
 const Dashboard = () =>
 {
     return (
@@ -11,8 +12,13 @@ const Dashboard = () =>
                 <StatisticCard src = "Sales.svg" description="Total sales" quantity="$89,000" statistics="4.3% Down from yesterday"/>
                 <StatisticCard src = "Pending.svg" description="Total pending" quantity="2040" statistics="1.8% Up from yesterday"/>
             </div>
+            <div className="sales__details">
+                <SalesDetails/>
+            </div>
+            <div className="deals__details">
+                <DealsDetails/>
+            </div>
 
-            <SalesDetails/>
         </div>
     )
 }

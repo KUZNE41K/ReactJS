@@ -22,7 +22,7 @@ const [selectedMonth, setSelectedMonth] = useState("October");
         <div className="dropdown">
             <button className = "dropdown_button" onClick={() => setIsOpen(!isOpen)}>
                 <span>{selectedMonth}</span>
-                <img src='/public/Shape.svg' alt=""/>
+                <img src='/Shape.svg' alt=""/>
             </button>
             {
                 isOpen && (

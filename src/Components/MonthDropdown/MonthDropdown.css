@@ -16,14 +16,26 @@
 {
     width: 104px;
     height: 28px;
+    z-index: 1000;
 }
-.dropdown_menu li{
-    padding:10px 16px;
-    cursor:pointer;
+.dropdown_menu li {
+    padding: 10px 16px;
+    cursor: pointer;
     background-color: #323D4E;
-
+    list-style: none;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 2px;
 }
-
+.dropdown_button span{
+    padding: 0 16px;
+    color: #ffffff;
+}
+.dropdown_button img{
+    padding-right: 16px;
+}
 .dropdown_menu li:hover{
-    background-color: #3B4659;
+    background-color: #4880FF;
+
+
 }

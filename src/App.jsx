@@ -8,7 +8,7 @@ const App = () => {
         <Routes>
 
             <Route element={<WrapperSidebarHeader />}>
-
+                <Route path="/" element={<Dashboard />} />
                 <Route path="/products" element={<Dashboard />} />
                 <Route path="/favorites" element={<Dashboard />} />
                 <Route path="/inbox" element={<Dashboard />} />

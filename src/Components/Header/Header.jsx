@@ -9,6 +9,7 @@ const Header=(props)=>{
     return (
         <header className={classNameHeader}>
             <div className={className}>
+
                 <SearchContainer className="searchContainer" type ="text" placeholder="Search"/>
                 <ProfileContainer className="profileContainer"/>
             </div>

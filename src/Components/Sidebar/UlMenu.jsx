@@ -8,6 +8,7 @@ const UlMenu = (props) =>{
 
     return (
         <ul className={className}>
+            <NavigationButton value="1" href="/" li="Dasboards"/>
             <NavigationButton value="1" href="/products" li="Products"/>
             <NavigationButton value="2" href="/favorites" li="Favorites"/>
             <NavigationButton value="3" href="/inbox" li="Inbox"/>

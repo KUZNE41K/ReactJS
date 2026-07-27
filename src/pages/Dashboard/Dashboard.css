@@ -9,3 +9,9 @@
     gap: 20px;
     white-space: nowrap;
 }
+.sales__details{
+    display: flex;
+}
+.deals__details{
+    display: flex;
+}
