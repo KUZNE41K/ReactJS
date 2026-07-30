@@ -1,0 +1,23 @@
+.status__badge {
+    display: flex;
+    justify-content: center;
+    max-width: 93px;
+    max-height: 27px;
+    width: auto;
+    height: auto;
+    padding: 4px 14px;
+    border-radius: 13px;
+}
+.status__badge span {
+    color: #ffffff;
+    font-size: 14px;
+}
+.delivered{
+    background-color: #00B69B;
+}
+.pending{
+    background-color: #FCBE2D;
+}
+.rejected{
+    background-color: #FD5454;
+}

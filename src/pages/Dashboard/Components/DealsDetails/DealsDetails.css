@@ -3,7 +3,8 @@
     height: 100%;
     padding: 32px 32px;
     background-color: #273142;
-    border-color: #313D4F;
+    border:1px groove #313D4F;
+    border-radius: 14px;
 }
 .deals-details__header {
     display: flex;

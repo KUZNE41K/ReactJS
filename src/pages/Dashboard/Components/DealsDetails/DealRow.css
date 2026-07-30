@@ -1,0 +1,21 @@
+.deals-details-container{
+    width: 100%;
+    grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr;
+    display: grid;
+    padding-top:30px ;
+    padding-bottom:30px;
+    margin-right: 32px;
+    border-bottom: 1px groove #979797;
+}
+.product {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+.deals-details-container span{
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
